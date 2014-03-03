@@ -1,0 +1,28 @@
+<html>
+<head>
+  <title>logoCast Sender</title>
+
+  <!--
+      Cast APIs
+  -->
+  <script type="text/javascript" src="//www.gstatic.com/cv/js/sender/v1/cast_sender.js"></script>
+
+  <style type="text/css" link="css/style.css"></style>
+</head>
+<body>
+  <video id="receiverVideoElement"></video>
+
+  <button onclick="startNewGame()">Join</button>
+  <button onclick="requestStart()" id="playButton" style="display: none;">PLAY!</button>
+  <!-- <button onclick="connectToGame()">Connect to Game</button> -->
+
+<!--   <pre id="hud">
+    <div>API Status: <span id="api_status">Not initialized</span></div>
+    <div>Receivers Available: <span id="receivers_available">N/A</span></div>
+    <div>Session Established: <span id="session_established">N/A</span></div>
+    <div>Last Message Received: <span id="last_message">N/A</span></div>
+  </pre>
+ -->
+  <script type="text/javascript" src="js/sender.js"></script>
+</body>
+</html>

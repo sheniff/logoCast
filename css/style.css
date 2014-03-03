@@ -1,0 +1,36 @@
+body {
+  overflow:hidden;
+  background-color: #000;
+  margin: 0;
+  color: #fff;
+}
+
+video {
+  display: none;
+}
+
+#game {
+  text-align: center;
+}
+
+img#logo {
+  width: 300px;
+}
+
+/*div {
+  position: absolute;
+  width: 100%;
+}
+
+img {
+  width: auto;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+  opacity: 0;
+  -webkit-transition: all 1s;
+}
+
+img.active {
+  opacity: 1;
+}*/

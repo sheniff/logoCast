@@ -1,0 +1,39 @@
+<html>
+<head>
+  <title>logoCast Receiver</title>
+
+  <!--
+      Cast APIs
+  -->
+  <script type="text/javascript" src="//www.gstatic.com/cast/sdk/libs/receiver/2.0.0/cast_receiver.js"></script>
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/lodash.js/2.4.1/lodash.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+  <video id="receiverVideoElement"></video>
+
+  <div style="margin-left: 200px;">
+    <h1>Connected players:</h1>
+    <ul id="connected_players"></ul>
+    <br>
+    <p>Connect to this ChromeCast device to play!</p>
+  </div>
+
+  <div id="game">
+    <img id="logo">
+  </div>
+
+
+
+
+
+
+
+  <!-- <div class="console">
+    <h3>Log</h3>
+    <pre id="hud"></pre>
+  </div> -->
+  <script type="text/javascript" src="js/receiver.js"></script>
+</body>
+</html>
